@@ -2,9 +2,25 @@
 // * Session Focus: Basic string operations, string traversal, and manipulation techniques.
 // ? Session Practice Questions:
 
-// 1. Reverse a string.
+// 1 (a). Reverse a string.
+
+function reverseString(ipt){
+    let reverse = []
+    for(let i = 0; i<ipt.length; i++){
+        reverse += ipt[ipt.length -i -1]
+    }
+    return reverse
+}
+
+console.log(reverseString("NIRANJAN"))
+
+//1 (b). Reverse only a Alphabats
+
+//------------------------------------------------------
 
 // 2. Count vowels and consonants in a string.
+
+//------------------------------------------------------
 
 // 3. Convert a string to lowercase / uppercase.
 
